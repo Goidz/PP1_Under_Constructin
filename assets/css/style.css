@@ -1,9 +1,23 @@
+<!-- Wildcard_Override browser default styles -->
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: blueviolet;
 }
 
 main {
     background-color: green;
+    flex: 1 0 auto;
 }
 
 footer{
