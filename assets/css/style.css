@@ -14,23 +14,58 @@ body {
     flex-direction: column;
     font-family: 'Marcellus SC', serif;
 
-    header {
-        background-color: black;
-    }
+header {
+    background-color: black;
+    text-align: center;
+    width: 100%;  
+}
 
-    #heading-home {
-        color: rgb(197, 99, 7);
-    }
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100%;
+}
 
-    #gigs-nav, #menu-nav {
-        color: rgb(197, 99, 7);
-    }
+nav a:hover, nav a:focus {
+    background-color: blue;
+    color: white;
+    outline: none;
+}
 
-    main {
-        background-color: green;
-        flex: 1 0 auto;
-    }
+nav a:active {
+    background-color: darkblue;
+}
 
-    footer {
-        background-color: blue;
-    }
+header a {
+    text-decoration: none;
+}
+
+#home-nav {
+    color: rgb(197, 99, 7);
+    padding: 0 5px;
+    font-size: 40px;
+}
+
+#menu-nav, #gigs-nav {
+    color: rgb(197, 99, 7);
+    padding: 0 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 0;
+    border-bottom: 1px;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/page_pic_horisont.jpg) no-repeat center/cover;
+}
+
+footer {
+    background-color: blue;
+    margin-bottom: 0;
+}
