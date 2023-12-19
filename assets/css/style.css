@@ -15,7 +15,15 @@ body {
     font-family: 'Marcellus SC', serif;
 
     header {
-        background-color: yellow;
+        background-color: black;
+    }
+
+    #heading-home {
+        color: rgb(197, 99, 7);
+    }
+
+    #gigs-nav, #menu-nav {
+        color: rgb(197, 99, 7);
     }
 
     main {
