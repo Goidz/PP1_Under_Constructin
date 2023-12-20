@@ -13,9 +13,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Marcellus SC', serif;
+    overflow: visible;
 
-header {
-    background-color: black;
+.header {
     text-align: center;
     width: 100%;  
 }
@@ -26,17 +26,7 @@ nav {
     z-index: 100%;
 }
 
-nav a:hover, nav a:focus {
-    background-color: blue;
-    color: white;
-    outline: none;
-}
-
-nav a:active {
-    background-color: darkblue;
-}
-
-header a {
+.header a {
     text-decoration: none;
 }
 
@@ -60,12 +50,38 @@ main {
 }
 
 #hero {
-    height: 600px;
+    display: flex;
+    flex-direction:column column;
+    height: 100vh;
     width: 100%;
-    background: url(../images/page_pic_horisont.jpg) no-repeat center/cover;
+    background: url(../images/page_pic_horisont.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    
 }
 
 footer {
-    background-color: blue;
+    background-color: black;
     margin-bottom: 0;
+    padding: 0px;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 700px) {
+    #hero {
+        width: 100%;
+        background-size: cover;
+        background-position: bottom;
+        position: bottom;;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #hero {
+        background-position: right;
+        position: relative;
+
+    }
+
 }
