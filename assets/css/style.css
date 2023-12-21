@@ -15,7 +15,9 @@ body {
     font-family: 'Marcellus SC', serif;
     overflow: visible;
 
+/* Header and Nav Section */    
 .header {
+    background-color: rgb(5, 10, 10) ;
     text-align: center;
     width: 100%;  
 }
@@ -32,35 +34,85 @@ nav {
 
 #home-nav {
     color: rgb(197, 99, 7);
-    padding: 0 5px;
+    padding: 2px 5px;
     font-size: 40px;
 }
-
-#menu-nav, #gigs-nav {
+/* gigs and about navigation link-buttons */
+#about-nav, #gigs-nav {
     color: rgb(197, 99, 7);
     padding: 0 5px;
     text-transform: uppercase;
+    letter-spacing: 1px;
     text-decoration: none;
 }
 
+/* Main Section */
 main {
     flex: 1 0 auto;
     margin-top: 0;
     border-bottom: 1px;
 }
 
+/* Hero image section */
 #hero {
     display: flex;
-    flex-direction:column column;
+    flex-direction: column;
     height: 100vh;
-    width: 100%;
-    background: url(../images/page_pic_horisont.jpg) no-repeat;
+    width: auto;
+    background: url(../images/page_pic_horisont.jpg) no-repeat; /* Used TinyPNG to reduce image size */
     background-size: cover;
     background-position: right;
     position: relative;
+}
+
+.text-over-hero {  
+    background-color: rgba(41, 38, 36, 0.6);
+    color: rgb(201, 104, 97);;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 3px;
+
+}
+
+/* About Section */
+#about {
+    background-color: rgb(5, 10, 10);
+}
+
+.text-intro-heading {
+    color: rgb(236, 196, 162);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.text-intro {
+    background-color: rgba(41, 38, 36, 0.6);
+    width: 100%;
+    height: 100%;
+    border: double grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.text-intro p {
+    color: rgb(201, 104, 97);
+
+}
+
+.text-intro h2, p {
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 1px;
     
 }
 
+/* Footer */
 footer {
     background-color: black;
     margin-bottom: 0;
@@ -68,20 +120,27 @@ footer {
     margin-top: 0;
 }
 
-@media screen and (min-width: 700px) {
+/* Media Queries */
+@media screen and (min-width: 768px) {
     #hero {
         width: 100%;
         background-size: cover;
         background-position: bottom;
-        position: bottom;;
     }
+
+    .text-intro {
+    display: flex;
+    box-sizing: border-box;
+    height: auto;
+    }
+
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
     #hero {
+        background-size: cover;
         background-position: right;
         position: relative;
-
-    }
+        }
 
 }
