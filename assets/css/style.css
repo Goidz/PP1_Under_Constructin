@@ -31,7 +31,7 @@ nav {
 .header a {
     text-decoration: none;
 }
-
+/* Home Navigation */
 #home-nav {
     color: rgb(197, 99, 7);
     padding: 2px 5px;
@@ -58,22 +58,24 @@ main {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: auto;
+    width: 100vw;
     background: url(../images/page_pic_horisont.jpg) no-repeat; /* Used TinyPNG to reduce image size */
     background-size: cover;
     background-position: right;
+    background-attachment: fixed;
     position: relative;
 }
 
 .text-over-hero {  
     background-color: rgba(41, 38, 36, 0.6);
-    color: rgb(201, 104, 97);;
-    list-style-type: none;
+    color: rgb(201, 104, 97);
     box-sizing: border-box;
     text-align: right;
-    padding-right: 15px;
-    padding-top: 3px;
+    padding: 10px;
+}
 
+ul {
+    list-style-type: none;
 }
 
 /* About Section */
@@ -97,6 +99,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
     font-size: 10px;
 }
 
@@ -114,10 +117,10 @@ main {
 
 /* Footer */
 footer {
-    background-color: black;
+    background-color: rgb(168, 5, 5);
     margin-bottom: 0;
-    padding: 0px;
-    margin-top: 0;
+    padding: 15px;
+    margin-top: 0px;
 }
 
 /* Media Queries */
@@ -126,6 +129,10 @@ footer {
         width: 100%;
         background-size: cover;
         background-position: bottom;
+    }
+
+    .text-over-hero {
+        padding-right: 50px;
     }
 
     .text-intro {
