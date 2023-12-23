@@ -196,26 +196,29 @@ footer
 
 /* Media Queries */
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 360px) {          /* small phones min_width 360px */
+    
     .nav-links #about-nav {
         padding-right: 2px;
     }
 
-    .text-over-hero{
+    .text-over-hero {. 
         width: 40%;
         font-size: 15px;
         height: 150px;
         margin-top: 35px;
-    }
+    }    
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 768px) {          /* Tablets min_width 768px */
+    
     #hero {
         width: 100%;
         flex-direction: row;
-        
     }
-/* Resizing text over hero img */
+
+    /* Resizing text over hero img */
     .text-over-hero {
         width: 60%;
         margin-left: 50%;
@@ -231,14 +234,14 @@ footer
     }
 
 /* Resizing header/nav section */
+    
     #home-nav {
         margin-top: 5px;
-        font-size: 80px;
+        font-size: 70px;
     }
 
     #about-nav, #gigs-nav {
-        margin-bottom: 5px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #about-nav {
@@ -251,6 +254,7 @@ footer
     }
 
 /* Resizing footer  */
+    
     #venue {
         height: 80px;
         margin-top: 10px;
@@ -269,38 +273,40 @@ footer
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {                  /* laptops etc min_width 992px */
     #hero {
         background-size: cover;
         background-position: right;
         position: relative;
         }
 
-    .text-over-hero {
-        position: relative; right: 600px;
-        position: relative; top: 60px;
-        width: 400px;
-    }   
-
-    #hero {
-        height: 80vh;
-        
-        
-    }
-
     #home-nav {
         float: left;
         margin-left: 13px;
         font-size: 100px;
     }
-
+    
     #gigs-nav {
-        position: fixed; right: 50px; top: 80px;
-        
+        display: block;
+        margin-top: 50px;
+        font-size: 30px;
+        position: relative; left: 195px;
     }
     
     #about-nav {
-        position: fixed; right: 20px; top: 80px;
-    } 
-    
+        display: block;
+        margin-top: 50px;
+        font-size: 30px;
+        position: relative; left: 95px;
+    }
+
+    .text-over-hero {
+        position: relative; right: 600px;
+        position: relative; top: 60px;
+        width: 400px;
+        }   
+
+    #hero {
+        height: 80vh;
+    }
 }
