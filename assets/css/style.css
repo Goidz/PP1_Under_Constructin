@@ -14,6 +14,11 @@ body {
     flex-direction: column;
     font-family: 'Marcellus SC', serif;
     overflow: auto;
+}
+
+.hidden-heading {       /* Hidden heading for hero-section */
+        display: none;
+}
 
 /* Header and Nav Section */    
 .header {
@@ -25,7 +30,7 @@ body {
 nav {
     position: sticky;
     top: 0;
-    z-index: 100%;
+    z-index: 100;
 }
 
 .header a {
@@ -121,8 +126,9 @@ ul {
 }
 
 /* Footer */
-footer {
-    #venue {
+footer  
+        
+        #venue {
         width: 90%;
         height: 60px;
         margin-left: 4.75%;
@@ -149,7 +155,7 @@ footer {
         padding-bottom: 5px;
         color: royalblue;
     }
-}
+
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
