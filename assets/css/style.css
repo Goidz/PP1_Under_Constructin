@@ -182,7 +182,9 @@ ul {
     letter-spacing: 1px;
 }
 
-
+#email-icon {
+    color: #fff800;
+}
 
 .text-intro h2, p {
     text-align: center;
