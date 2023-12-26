@@ -225,9 +225,9 @@ footer
         color: #fff800;
     }
 
-/* Media Queries */
+                                                /* Media Queries */
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) {          /* smaller phones min_width 320px */
 
     #home-nav {
         font-size: 28px;
@@ -284,8 +284,28 @@ footer
 
 }
 
-@media screen and (min-height: 800px) and (max-height: 930px) {              /* smaller phones min_height 800px and 820px */
+@media screen and (min-width: 400px) and (max-width: 480px) {              /* smaller phones min_width 400px and 480px */
 
+    #hero {
+        position: static;
+        width: 100%;
+    }
+
+    .text-over-hero { 
+        
+        position: absolute;
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        padding-left: 3px;
+        padding-right: 3px;
+        min-height: 185px;
+        max-width: 100%;
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 35%;
+        
+    } 
+    
     .text-intro {
         height: auto;
         font-size: 15px;
@@ -410,23 +430,19 @@ footer
 
 }
 
-@media screen and (min-height: 1080px) and (max-height: 1200px) {          /* tablets height between 1080px-1200px */
-    
+@media screen and (min-width: 800px) and (max-height: 1280px) {
+
+    .text-heading-contact {
+        height: auto;
+        padding-top: 50px;
+    }
+
     .text-over-hero {
         width: 34%;
         margin-top: 60px;
         margin-left: 55%;
         font-size: 25px;
         height: 205px;
-    }
-
-}
-
-@media screen and (min-width: 800px) and (max-height: 1280px) {
-
-    .text-heading-contact {
-        height: auto;
-        padding-top: 50px;
     }
 }
 
@@ -506,7 +522,7 @@ footer
     }
 }    
 
-    @media screen and (min-width: 1620px) and (max-width: 1920px) { /* Biger computer screens min-width 1620px - 1920px */
+@media screen and (min-width: 1620px) and (max-width: 1921px) { /* Biger computer screens min-width 1620px - 1920px */
     
     .nav-links {
         display: flex;
