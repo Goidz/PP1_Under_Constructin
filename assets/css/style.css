@@ -562,6 +562,7 @@ footer
     }
     
     .text-intro {
+        background-size: cover;
         display: flex;
         justify-content: center;
         height: auto;
