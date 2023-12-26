@@ -192,6 +192,64 @@ ul {
     letter-spacing: 1px;
 }
 
+/* Gig Guide */
+
+.gig-main {
+    background-color: rgb(5, 10, 10);
+}
+
+section>h1 {
+    color: #fff800;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+#tickets-icon {
+    color: black;
+}
+
+.gig-guide {
+    font-size: 13px;
+    color: black;
+}
+
+#gig1, #gig3, #gig5 {
+    background-color: rgb(153, 44, 44);
+    border-style: groove;
+    border-color: dimgray;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#gig2, #gig4, #gig6 {
+    background-color: rgb(30, 101, 112);
+    border-style: groove;
+    border-color: dimgray;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+
+
+
+
+
 /* Footer */
 footer  
         
@@ -255,6 +313,10 @@ footer
         max-width: 100%;
         width: 86%;
         margin-left: 7%;
+    }
+
+    .gig-guide {
+        font-size: 11px;
     }
 }
 
@@ -568,7 +630,7 @@ footer
         display: flex;
         justify-content: center;
         height: auto;
-        background-color: #1b1b1a;
+        background-color: rgba(41, 38, 36, 0.6);
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
