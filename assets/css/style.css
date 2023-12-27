@@ -14,17 +14,19 @@ body {
     flex-direction: column;
     font-family: 'Marcellus SC', serif;
     overflow: auto;
+    overflow-x: hidden;
 }
 
-.hidden-heading {       /* Hidden heading for hero-section */
-        display: none;
+.hidden-heading {
+    /* Hidden heading for hero-section */
+    display: none;
 }
 
-/* Header and Nav Section */    
+/* Header and Nav Section */
 .header {
     background-color: rgb(5, 10, 10);
     width: 100vw;
-    padding-top: 5px; 
+    padding-top: 5px;
     padding-bottom: 3px;
 }
 
@@ -58,15 +60,17 @@ nav {
 }
 
 .nav-links #gigs-nav {
-    position: relative; top: 7px;
+    position: relative;
+    top: 7px;
     padding-right: 1px;
-    
+
 }
 
 .nav-links #about-nav {
-    position: relative; top: 7px;
+    position: relative;
+    top: 7px;
     padding-left: 1px;
-    
+
 }
 
 /* gigs and about navigation links */
@@ -100,7 +104,8 @@ main {
     display: flex;
     height: 100vh;
     width: 100vw;
-    background: url(../images/page_pic_horisont.jpg) no-repeat; /* Used TinyPNG to reduce image size */
+    background: url(../images/page_pic_horisont.jpg) no-repeat;
+    /* Used TinyPNG to reduce image size */
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
@@ -108,7 +113,7 @@ main {
 }
 
 /* Hero Text overlay section */
-.text-over-hero {  
+.text-over-hero {
     background-color: rgba(41, 38, 36, 0.75);
     color: rgb(248, 98, 87);
     letter-spacing: 1px;
@@ -131,7 +136,8 @@ ul {
     background-color: rgb(5, 10, 10);
 }
 
-.text-intro-heading {                   /* Heading for Intro Section */
+.text-intro-heading {
+    /* Heading for Intro Section */
     color: #fff800;
     text-align: center;
     margin-top: 20px;
@@ -145,7 +151,8 @@ ul {
 }
 
 .text-intro {
-    background-color: rgba(41, 38, 36, 0.6);        /* Intro Section */
+    background-color: rgba(41, 38, 36, 0.6);
+    /* Intro Section */
     color: rgb(201, 104, 97);
     width: 90%;
     height: 195px;
@@ -157,7 +164,8 @@ ul {
     font-size: 11px;
 }
 
-.text-heading-contact {         /* Heading for CONTACT Section */
+.text-heading-contact {
+    /* Heading for CONTACT Section */
     color: #fff800;
     text-align: center;
     margin-top: 20px;
@@ -170,7 +178,8 @@ ul {
     letter-spacing: 1px;
 }
 
-.text-intro-contact {                               /* CONTACT Section */
+.text-intro-contact {
+    /* CONTACT Section */
     background-color: rgba(41, 38, 36, 0.6);
     color: rgb(201, 104, 97);
     border: double grey;
@@ -186,7 +195,8 @@ ul {
     color: #fff800;
 }
 
-.text-intro h2, p {
+.text-intro h2,
+p {
     text-align: center;
     padding: 5px;
     letter-spacing: 1px;
@@ -222,7 +232,9 @@ section>h1 {
     color: black;
 }
 
-#gig1, #gig3, #gig5 {
+#gig1,
+#gig3,
+#gig5 {
     background-color: rgb(88, 119, 30);
     border-style: groove;
     border-color: dimgray;
@@ -234,7 +246,9 @@ section>h1 {
     padding-bottom: 6px;
 }
 
-#gig2, #gig4, #gig6 {
+#gig2,
+#gig4,
+#gig6 {
     background-color: rgb(218, 145, 37);
     border-style: groove;
     border-color: dimgray;
@@ -253,49 +267,48 @@ section>h1 {
 
 
 /* Footer */
-footer  
-        
-    #venue {
-        width: 90%;
-        height: 60px;
-        margin-left: 4.75%;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        padding-bottom: 0;
-    }
+footer #venue {
+    width: 90%;
+    height: 180px;
+    margin-left: 4.75%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+}
 
-    #venue-wrapper {
-        background-color: rgba(0, 0, 0, 0.95);
-    } 
+#venue-wrapper {
+    background-color: rgba(0, 0, 0, 0.95);
+}
 
-    #social-media {
-        text-align: center;
-        padding-bottom: 5px;
-        padding-top: 0;
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
-        background-color: rgba(0, 0, 0, 0.95);
-    }   
+#social-media {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.95);
+}
 
-    #social-media i {
-        padding-bottom: 5px;
-        color: #fff800;
-    }
+#social-media i {
+    padding-bottom: 5px;
+    color: #fff800;
+}
 
-    #social-media a {
-        color: #fff800;
-    }
+#social-media a {
+    color: #fff800;
+}
 
-                                                /* Media Queries */
+/* Media Queries */
 
-@media screen and (min-width: 320px) {          /* smaller phones min_width 320px */
+@media screen and (min-width: 320px) {
+    /* smaller phones min_width 320px */
 
     #home-nav {
         font-size: 28px;
         margin-top: 5px;
     }
-    
+
     #about-nav {
         margin-right: 5px;
         margin-left: 4px;
@@ -307,7 +320,7 @@ footer
         height: 120px;
         margin-top: 30px;
         margin-left: 50%;
-}
+    }
 
     .text-intro {
         min-height: 225px;
@@ -322,20 +335,21 @@ footer
     }
 }
 
-@media screen and (min-width: 360px) {          /* smaller phones min_width 360px */
-    
+@media screen and (min-width: 360px) {
+    /* smaller phones min_width 360px */
+
     .nav-links #about-nav {
         padding-right: 2px;
     }
 
-    .text-over-hero { 
+    .text-over-hero {
         width: 40%;
         font-size: 15px;
         height: 150px;
         margin-top: 35px;
         margin-left: 50%;
-    } 
-    
+    }
+
     .text-intro {
         min-height: 225px;
         overflow: scroll;
@@ -350,15 +364,16 @@ footer
 
 }
 
-@media screen and (min-width: 400px) and (max-width: 480px) {              /* smaller phones min_width 400px and 480px */
+@media screen and (min-width: 400px) and (max-width: 480px) {
+    /* smaller phones min_width 400px and 480px */
 
     #hero {
         position: static;
         width: 100%;
     }
 
-    .text-over-hero { 
-        
+    .text-over-hero {
+
         position: absolute;
         font-size: 1.2rem;
         padding-bottom: 15px;
@@ -369,9 +384,9 @@ footer
         width: 50%;
         margin-top: 50px;
         margin-left: 35%;
-        
-    } 
-    
+
+    }
+
     .text-intro {
         height: auto;
         font-size: 15px;
@@ -390,14 +405,15 @@ footer
 
 }
 
-@media screen and (min-width: 768px) {          /* Tablets min_width 768px */
-    
+@media screen and (min-width: 768px) {
+    /* Tablets min_width 768px */
+
     #hero {
         width: 100%;
-        
+
     }
 
-/* Resizing text over hero img */
+    /* Resizing text over hero img */
     .text-over-hero {
         width: 60%;
         margin-left: 50%;
@@ -407,19 +423,20 @@ footer
     }
 
     .text-intro {
-    display: flex;
-    box-sizing: border-box;
-    height: auto;
+        display: flex;
+        box-sizing: border-box;
+        height: auto;
     }
 
-/* Resizing header/nav section */
-    
+    /* Resizing header/nav section */
+
     #home-nav {
         margin-top: 5px;
         font-size: 70px;
     }
 
-    #about-nav, #gigs-nav {
+    #about-nav,
+    #gigs-nav {
         font-size: 20px;
     }
 
@@ -432,9 +449,10 @@ footer
         padding-right: 12.5%;
     }
 
-/* Resizing About Page */    
+    /* Resizing About Page */
 
-    .text-intro-heading {                              /* Intro Section Heading*/
+    .text-intro-heading {
+        /* Intro Section Heading*/
         margin-top: 20px;
         padding-top: 10px;
         padding-bottom: 5px;
@@ -443,9 +461,10 @@ footer
         font-size: 24px;
     }
 
-    .text-intro {                                   /* Intro Section */
+    .text-intro {
+        /* Intro Section */
         height: auto;
-        
+
         margin-top: 18px;
         margin-bottom: 50px;
         padding: 6px;
@@ -470,8 +489,8 @@ footer
         font-size: 18px;
     }
 
-                                    /* Resizing footer  */
-    
+    /* Resizing footer  */
+
     #venue {
         height: 80px;
         margin-top: 10px;
@@ -482,7 +501,7 @@ footer
     #venue-wrapper {
         padding-top: 7px;
     }
-    
+
     #social-media {
         display: flex;
         justify-content: space-evenly;
@@ -511,17 +530,18 @@ footer
         height: 205px;
     }
 
-    
+
 }
 
-@media screen and (min-width: 992px) {                  /* laptops etc min_width 992px */
-    
+@media screen and (min-width: 992px) {
+    /* laptops etc min_width 992px */
+
     #hero {
         background-size: cover;
         background-position: right;
         position: relative;
-        }
-    
+    }
+
     #home-nav {
         display: flex;
         justify-content: flex-start;
@@ -529,7 +549,7 @@ footer
         margin-left: 13px;
         font-size: 100px;
     }
-    
+
     #gigs-nav {
         display: flex;
         justify-content: flex-end;
@@ -537,9 +557,10 @@ footer
         margin-top: 50px;
         font-size: 30px;
         padding-right: 20px;
-        position: relative; left: 195px;
+        position: relative;
+        left: 195px;
     }
-    
+
     #about-nav {
         display: flex;
         justify-content: flex-end;
@@ -547,19 +568,22 @@ footer
         margin-top: 50px;
         font-size: 30px;
         padding-right: 20px;
-        position: relative; left: 95px;
+        position: relative;
+        left: 95px;
     }
 
     .text-over-hero {
-        position: relative; right: 600px;
-        position: relative; top: 60px;
+        position: relative;
+        right: 600px;
+        position: relative;
+        top: 60px;
         width: 400px;
-        }   
+    }
 
     #hero {
         height: 80vh;
     }
-    
+
     .text-intro {
         display: flex;
         justify-content: center;
@@ -569,7 +593,7 @@ footer
         margin-right: auto;
         font-size: 30px;
     }
-    
+
     .text-intro-contact {
         width: 700px;
         min-height: 210px;
@@ -588,17 +612,19 @@ footer
         display: flex;
         align-self: center;
     }
-}    
+}
 
-@media screen and (min-width: 1620px) and (max-width: 1921px) { /* Biger computer screens min-width 1620px - 1920px */
-    
+@media screen and (min-width: 1620px) and (max-width: 1921px) {
+    /* Biger computer screens min-width 1620px - 1920px */
+
     .nav-links {
         display: flex;
         justify-content: space-evenly;
     }
-    
+
     #home-nav {
-        position: relative; right: 130px;
+        position: relative;
+        right: 130px;
         font-size: 120px;
     }
 
@@ -611,14 +637,16 @@ footer
         font-size: 40px;
         margin-right: 20px;
     }
-    
+
     #hero {
         width: 100%;
     }
-    
+
     .text-over-hero {
-        position: relative; right: 950px;
-        position: relative; top: 80px;
+        position: relative;
+        right: 950px;
+        position: relative;
+        top: 80px;
         width: 600px;
         height: 355px;
         font-size: 45px;
@@ -627,7 +655,7 @@ footer
     .text-intro-heading {
         margin-top: 70px;
     }
-    
+
     .text-intro {
         background-size: cover;
         height: auto;
@@ -647,12 +675,12 @@ footer
         font-size: 20px;
         margin-left: auto;
         margin-right: auto;
-    } 
-    
+    }
+
     #email-button {
         width: 100%;
         width: fit-content;
         display: flex;
         align-self: center;
     }
-} 
+}
