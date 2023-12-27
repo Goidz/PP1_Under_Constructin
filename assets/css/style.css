@@ -216,29 +216,31 @@ section>h1 {
 }
 
 .gig-guide {
+    display: flex;
+    flex-direction: column;
     font-size: 13px;
     color: black;
 }
 
 #gig1, #gig3, #gig5 {
-    background-color: rgb(153, 44, 44);
+    background-color: rgb(88, 119, 30);
     border-style: groove;
     border-color: dimgray;
     margin-left: 10%;
     margin-right: 10%;
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
+    align-items: space-between;
     padding-top: 6px;
     padding-bottom: 6px;
 }
 
 #gig2, #gig4, #gig6 {
-    background-color: rgb(30, 101, 112);
+    background-color: rgb(218, 145, 37);
     border-style: groove;
     border-color: dimgray;
     margin-left: 10%;
     margin-right: 10%;
-    display: flex;
+    text-align: center;
     justify-content: space-evenly;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -258,7 +260,7 @@ footer
         height: 60px;
         margin-left: 4.75%;
         margin-top: 10px;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
         padding-bottom: 0;
     }
 
@@ -443,7 +445,7 @@ footer
 
     .text-intro {                                   /* Intro Section */
         height: auto;
-        margin-left: 5%;
+        
         margin-top: 18px;
         margin-bottom: 50px;
         padding: 6px;
@@ -508,6 +510,8 @@ footer
         font-size: 25px;
         height: 205px;
     }
+
+    
 }
 
 @media screen and (min-width: 992px) {                  /* laptops etc min_width 992px */
@@ -559,7 +563,7 @@ footer
     .text-intro {
         display: flex;
         justify-content: center;
-        height: auto;
+        height: 100%;
         width: 1200px;
         margin-left: auto;
         margin-right: auto;
@@ -571,7 +575,7 @@ footer
         min-height: 210px;
         display: flex;
         flex-direction: column;
-        padding-bottom: 0;
+        padding-bottom: 5px;
         text-align: center;
         font-size: 20px;
         margin-left: auto;
@@ -610,7 +614,6 @@ footer
     
     #hero {
         width: 100%;
-        
     }
     
     .text-over-hero {
@@ -627,19 +630,16 @@ footer
     
     .text-intro {
         background-size: cover;
-        display: flex;
-        justify-content: center;
         height: auto;
         background-color: rgba(41, 38, 36, 0.6);
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 60%;
+        margin-top: 40px;
         font-size: 30px;
     }
 
     .text-intro-contact {
         width: 700px;
-        min-height: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
         padding-bottom: 0;
@@ -655,4 +655,4 @@ footer
         display: flex;
         align-self: center;
     }
-}
+} 
