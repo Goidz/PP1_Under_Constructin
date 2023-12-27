@@ -221,8 +221,11 @@ section>h1 {
     letter-spacing: 1px;
 }
 
-#tickets-icon {
+.ticket-icon {
     color: black;
+    display: block;
+    width: 100%;
+    padding-top: 10px;
 }
 
 .gig-guide {
@@ -230,34 +233,32 @@ section>h1 {
     flex-direction: column;
     font-size: 13px;
     color: black;
+    margin-bottom: 10px;
 }
 
-#gig1,
-#gig3,
-#gig5 {
+.gig-green {
     background-color: rgb(88, 119, 30);
     border-style: groove;
     border-color: dimgray;
+    font-size: medium;
+    height: 130px;
+    padding: 15px;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-    align-items: space-between;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    
 }
 
-#gig2,
-#gig4,
-#gig6 {
-    background-color: rgb(218, 145, 37);
+.gig-orange {
+    background-color:rgb(218, 145, 37);
     border-style: groove;
     border-color: dimgray;
+    font-size: medium;
+    height: 150px;
+    padding: 15px;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-    justify-content: space-evenly;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 
@@ -332,6 +333,10 @@ footer #venue {
 
     .gig-guide {
         font-size: 11px;
+    }
+    .gig-green, .gig-orange {
+        font-size: small;
+        height: 85px;
     }
 }
 
@@ -529,6 +534,14 @@ footer #venue {
         font-size: 25px;
         height: 205px;
     }
+    section>h1 {
+        font-size: 45px;
+    }
+
+    .gig-green, .gig-orange {
+        height: 140px;
+        font-size: x-large;
+    }
 
 
 }
@@ -683,4 +696,19 @@ footer #venue {
         display: flex;
         align-self: center;
     }
+
+    /* gigs page */
+    section>h1 {
+        font-size: 75px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .gig-green, .gig-orange {
+        height: 140px;
+        font-size: xx-large;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
 }
