@@ -225,7 +225,7 @@ section>h1 {
     color: black;
     display: block;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 7px;
 }
 
 .gig-guide {
@@ -254,7 +254,7 @@ section>h1 {
     border-style: groove;
     border-color: dimgray;
     font-size: medium;
-    height: 150px;
+    height: 130px;
     padding: 15px;
     margin-left: 10%;
     margin-right: 10%;
@@ -337,6 +337,27 @@ footer #venue {
     .gig-green, .gig-orange {
         font-size: small;
         height: 85px;
+        padding-top: 5px;
+    }
+
+    #dr-john {
+        height: 95px;
+        padding-top: 0px;
+    }
+
+    #witches {
+        height: 95px;
+        padding-top: 0;
+    }
+
+    #queens {
+        height: 95px;
+        padding-top: 0;
+    }
+
+    #closed-feb {
+        height: 95px;
+        padding-top: 5px;
     }
 }
 
@@ -415,7 +436,6 @@ footer #venue {
 
     #hero {
         width: 100%;
-
     }
 
     /* Resizing text over hero img */
@@ -466,10 +486,9 @@ footer #venue {
         font-size: 24px;
     }
 
-    .text-intro {
-        /* Intro Section */
+    .text-intro {               /* Intro Section */
+        
         height: auto;
-
         margin-top: 18px;
         margin-bottom: 50px;
         padding: 6px;
@@ -494,7 +513,7 @@ footer #venue {
         font-size: 18px;
     }
 
-    /* Resizing footer  */
+/* Resizing footer  */
 
     #venue {
         height: 80px;
@@ -517,11 +536,7 @@ footer #venue {
         margin-bottom: 5px;
         font-size: 20px;
     }
-
-}
-
-@media screen and (min-width: 800px) and (max-height: 1280px) {
-
+    
     .text-heading-contact {
         height: auto;
         padding-top: 50px;
@@ -538,12 +553,32 @@ footer #venue {
         font-size: 45px;
     }
 
+/* Resizing gigs page */
+
     .gig-green, .gig-orange {
         height: 140px;
         font-size: x-large;
     }
 
+    #dr-john {
+        height: 150px;
+        padding-top: 5px;
+    }
 
+    #witches {
+        height: 150px;
+        padding-top: 5px;
+    }
+
+    #queens {
+        height: 150px;
+        padding-top: 5px;
+    }
+
+    #closed-feb {
+        height: 150px;
+        padding-top: 5px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -627,8 +662,78 @@ footer #venue {
     }
 }
 
-@media screen and (min-width: 1620px) and (max-width: 1921px) {
-    /* Biger computer screens min-width 1620px - 1920px */
+@media screen and (min-width: 1080px) and (max-width: 1280px) {     /* Tablets landcape */
+    
+    /* Navigation adjustments */
+    
+    #home-nav {
+        font-size: 70px;
+        justify-content: left;
+        margin-top: 45px;
+    }
+
+    #about-nav {
+        margin-right: 90px;
+        margin-top: 60px;
+        width: 70px;
+    }
+
+    #gigs-nav {
+        margin-right: 70px;
+        width: 70px;
+        margin-top: 60px;
+    }
+
+    /* text intro section */
+
+    .text-intro {
+        font-size: 25px;
+        width: 90%;
+        height: 320px;
+    }
+
+
+    /* .gig-green, .gig-orange */
+
+    .gig-green, .gig-orange {
+        height: 120px;
+    }
+
+    #dr-john {
+        height: 110px;
+        padding-top: 5px;
+    }
+
+    #witches {
+        height: 135px;
+        padding-top: 5px;
+    }
+
+    #queens {
+        height: 135px;
+        padding-top: 5px;
+    }
+
+    #closed-feb {
+        height: 110px;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .text-intro {
+        font-size: 27px;
+        width: 90%;
+        height: 320px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1620px) and (max-width: 1921px) {     /* Biger computer screens min-width 1620px - 1920px */
+    
 
     .nav-links {
         display: flex;
