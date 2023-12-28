@@ -134,6 +134,7 @@ ul {
 
 #about {
     background-color: rgb(5, 10, 10);
+    overflow-x: hidden;
 }
 
 .text-intro-heading {
@@ -168,6 +169,7 @@ ul {
 
 .text-heading-contact {
     /* Heading for CONTACT Section */
+
     color: #fff800;
     text-align: center;
     margin-top: 20px;
@@ -776,7 +778,7 @@ footer #venue {
         width: 66%;
         margin-top: 40px;
         font-size: 31px;
-        padding: 5px;
+        
         margin-bottom: 5px;
     }
 
