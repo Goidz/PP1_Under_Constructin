@@ -608,6 +608,33 @@ footer #venue {
         width: 280px;
         margin-left: 620px;
     }
+
+    .text-intro-heading {
+        font-size: 25px;
+    }
+
+    .text-intro {               /* Intro Section */
+        height: 392px;
+        margin-top: 20px;
+        padding: 8px;
+        font-size: 26px;
+    }
+
+    .text-heading-contact{
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .text-intro-contact{
+        height: 300px;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    #venue {
+        margin-top: 30px;
+    }
+
 }
 
 @media screen and (min-width: 1440px) {
