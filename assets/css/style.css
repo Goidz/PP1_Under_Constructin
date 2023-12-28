@@ -771,12 +771,12 @@ footer #venue {
 
     .text-intro {
         background-size: cover;
-        height: 382px;
+        height: 384px;
         background-color: rgba(41, 38, 36, 0.6);
-        width: 65%;
+        width: 66%;
         margin-top: 40px;
         font-size: 31px;
-        padding: 4px;
+        padding: 5px;
         margin-bottom: 5px;
     }
 
