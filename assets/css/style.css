@@ -849,4 +849,24 @@ footer #venue {
         margin-right: 15%;
     }
 
+    #dr-john {
+        height: 140px;
+        padding-top: 0px;
+    }
+
+    #witches {
+        height: 140px;
+        padding-top: 0;
+    }
+
+    #queens {
+        height: 140px;
+        padding-top: 0;
+    }
+
+    #closed-feb {
+        height: 105px;
+        padding-top: 5px;
+    }
+
 }
