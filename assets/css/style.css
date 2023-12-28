@@ -584,8 +584,34 @@ footer #venue {
     }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1124px){
+
+    #home-nav {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    #gigs-nav {
+        font-size: 25px;
+        
+       
+    }
+
+    #about-nav {
+        font-size: 25px;
+    }
+
+    .text-over-hero {
+        margin-top: 80px;
+        font-size: 25px;
+        height: 220px;
+        width: 280px;
+        margin-left: 620px;
+    }
+}
+
 @media screen and (min-width: 1440px) {
-    /* laptops etc min_width 992px */
+    /* laptops etc min_width 1440px */
 
     #hero {
         background-size: cover;
@@ -598,22 +624,16 @@ footer #venue {
     }
 
     #home-nav {
-        
         justify-content: flex-start;
-        
         margin-right: 150px;
         margin-top: 30px;
         font-size: 80px;
     }
 
     #gigs-nav {
-        
-        
         display: block;
         margin-top: 50px;
         font-size: 30px;
-        
-        
         margin-left: 300px;
     }
 
@@ -784,10 +804,9 @@ footer #venue {
         background-size: cover;
         height: 384px;
         background-color: rgba(41, 38, 36, 0.6);
-        width: 66%;
+       
         margin-top: 40px;
         font-size: 31px;
-        
         margin-bottom: 5px;
     }
 
