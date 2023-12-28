@@ -725,12 +725,12 @@ footer #venue {
     }
 }
 
-@media screen and (min-width: 1280px) {
+/*@media screen and (min-width: 1280px) {
 
     .text-intro {
         font-size: 27px;
-        width: 90%;
-        height: 320px;
+        width: 10%;
+        height: 320px;*/
     }
 
 
@@ -747,8 +747,8 @@ footer #venue {
 
     #home-nav {
         position: relative;
-        right: 130px;
-        font-size: 120px;
+        right: 150px;
+        font-size: 100px;
     }
 
     #gigs-nav {
