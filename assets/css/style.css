@@ -138,6 +138,7 @@ ul {
 
 .text-intro-heading {
     /* Heading for Intro Section */
+
     color: #fff800;
     text-align: center;
     margin-top: 20px;
@@ -151,8 +152,9 @@ ul {
 }
 
 .text-intro {
-    background-color: rgba(41, 38, 36, 0.6);
     /* Intro Section */
+
+    background-color: rgba(41, 38, 36, 0.6);
     color: rgb(201, 104, 97);
     width: 90%;
     height: 195px;
@@ -260,12 +262,6 @@ section>h1 {
     margin-right: 10%;
     text-align: center;
 }
-
-
-
-
-
-
 
 /* Footer */
 footer #venue {
@@ -390,9 +386,9 @@ footer #venue {
 
 }
 
+/* smaller phones min_width 400px and 480px */
 @media screen and (min-width: 400px) and (max-width: 480px) {
-    /* smaller phones min_width 400px and 480px */
-
+    
     #hero {
         position: static;
         width: 100%;
@@ -410,7 +406,6 @@ footer #venue {
         width: 50%;
         margin-top: 50px;
         margin-left: 35%;
-
     }
 
     .text-intro {
@@ -595,7 +590,7 @@ footer #venue {
         justify-content: flex-start;
         float: left;
         margin-left: 13px;
-        font-size: 100px;
+        font-size: 90px;
     }
 
     #gigs-nav {
@@ -776,11 +771,13 @@ footer #venue {
 
     .text-intro {
         background-size: cover;
-        height: 380px;
+        height: 382px;
         background-color: rgba(41, 38, 36, 0.6);
-        width: 60%;
+        width: 65%;
         margin-top: 40px;
-        font-size: 30px;
+        font-size: 31px;
+        padding: 4px;
+        margin-bottom: 5px;
     }
 
     .text-intro-contact {
