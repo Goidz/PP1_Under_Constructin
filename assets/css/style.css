@@ -454,6 +454,7 @@ footer #venue {
 
     #home-nav {
         margin-top: 5px;
+        margin-left: 50px;
         font-size: 70px;
     }
 
@@ -469,6 +470,7 @@ footer #venue {
 
     #gigs-nav {
         padding-right: 12.5%;
+        margin-left: 80px;
     }
 
     /* Resizing About Page */
@@ -578,7 +580,7 @@ footer #venue {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1440px) {
     /* laptops etc min_width 992px */
 
     #hero {
@@ -587,42 +589,47 @@ footer #venue {
         position: relative;
     }
 
+    .nav-links {
+        display:flex
+    }
+
     #home-nav {
-        display: flex;
+        
         justify-content: flex-start;
-        float: left;
-        margin-left: 13px;
-        font-size: 90px;
+        
+        margin-right: 150px;
+        margin-top: 30px;
+        font-size: 80px;
     }
 
     #gigs-nav {
-        display: flex;
-        justify-content: flex-end;
+        
+        
         display: block;
         margin-top: 50px;
         font-size: 30px;
-        padding-right: 20px;
-        position: relative;
-        left: 195px;
+        
+        
+        margin-left: 300px;
     }
 
     #about-nav {
-        display: flex;
-        justify-content: flex-end;
+        
+        
         display: block;
         margin-top: 50px;
         font-size: 30px;
         padding-right: 20px;
         position: relative;
-        left: 95px;
+        
     }
 
     .text-over-hero {
         position: relative;
-        right: 600px;
-        position: relative;
+        right: 700px;
+        
         top: 60px;
-        width: 400px;
+        width: 320px;
     }
 
     #hero {
