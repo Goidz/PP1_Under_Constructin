@@ -730,13 +730,13 @@ footer #venue {
     .text-intro {
         font-size: 27px;
         width: 10%;
-        height: 320px;*/
+        height: 320px;
     }
 
 
 
 }
-
+*/
 @media screen and (min-width: 1620px) and (max-width: 1940px) {     /* Biger computer screens min-width 1620px - 1920px */
     
 
@@ -747,8 +747,8 @@ footer #venue {
 
     #home-nav {
         position: relative;
-        right: 150px;
-        font-size: 100px;
+        right: 80px;
+        font-size: 80px;
     }
 
     #gigs-nav {
@@ -776,6 +776,7 @@ footer #venue {
     }
 
     .text-intro-heading {
+        font-size: 35px;
         margin-top: 70px;
     }
 
@@ -790,6 +791,11 @@ footer #venue {
         margin-bottom: 5px;
     }
 
+    .text-heading-contact{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
     .text-intro-contact {
         width: 700px;
         height: auto;
@@ -800,6 +806,7 @@ footer #venue {
         font-size: 20px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 15px;
     }
 
     #email-button {
