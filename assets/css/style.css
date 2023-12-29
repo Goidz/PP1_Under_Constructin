@@ -115,7 +115,7 @@ main {
 /* Hero Text overlay section */
 .text-over-hero {
     background-color: rgba(41, 38, 36, 0.75);
-    color: rgb(248, 98, 87);
+    color: #f2d491;
     letter-spacing: 1px;
     text-align: center;
     padding-top: 7px;
@@ -584,7 +584,7 @@ footer #venue {
         padding-top: 5px;
     }
 }
-
+/* Big Tablets. Ipad Pro */
 @media screen and (min-width: 1024px) and (max-width: 1124px){
 
     #home-nav {
@@ -605,8 +605,8 @@ footer #venue {
     .text-over-hero {
         margin-top: 80px;
         font-size: 25px;
-        height: 220px;
-        width: 280px;
+        height: 210px;
+        
         margin-left: 620px;
     }
 
