@@ -632,6 +632,10 @@ footer #venue {
         margin-bottom: 0;
     }
 
+    .gig-green, .gig-orange {
+        font-size: large;
+    }
+
     #venue {
         margin-top: 30px;
     }
