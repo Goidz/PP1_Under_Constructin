@@ -492,6 +492,7 @@ footer #venue {
         height: 450px;
         margin-top: 20px;
         padding: 6px;
+        padding-bottom: 5px;
         font-size: 25px;
     }
 
@@ -516,13 +517,13 @@ footer #venue {
 
     #venue {
         height: 80px;
-        margin-top: 10px;
+        margin-top: 20px;
         padding-bottom: 5px;
 
     }
 
     #venue-wrapper {
-        padding-top: 7px;
+        padding-top: 15px;
     }
 
     #social-media {
@@ -537,7 +538,7 @@ footer #venue {
     }
     
     .text-heading-contact {
-        height: auto;
+        height: large;
         padding-top: 50px;
     }
 
@@ -584,6 +585,7 @@ footer #venue {
         padding-top: 5px;
     }
 }
+
 /* Big Tablets. Ipad Pro */
 @media screen and (min-width: 1024px) and (max-width: 1124px){
 
@@ -640,6 +642,13 @@ footer #venue {
     }
 
 }
+/*
+@media screen and (min-height: 768px) and (max-height: 220px) {
+
+    .text-over-hero {
+    }
+
+}*/
 
 @media screen and (min-width: 1440px) {
     /* laptops etc min_width 1440px */
@@ -741,21 +750,25 @@ footer #venue {
     /* Navigation adjustments */
     
     #home-nav {
-        font-size: 70px;
-        justify-content: left;
-        margin-top: 45px;
+        font-size: 80px;    
     }
 
     #about-nav {
-        margin-right: 90px;
-        margin-top: 60px;
-        width: 70px;
+        margin-right: 10px;
+        
     }
 
     #gigs-nav {
-        margin-right: 70px;
-        width: 70px;
-        margin-top: 60px;
+        margin-right: 10px;
+        padding-left: 180px;    
+    }
+
+    .text-over-hero {
+        margin-top: 90px;
+        font-size: 20px;
+        height: 175px;
+        margin-left: 90px;
+        width: 230px;
     }
 
     /* text intro section */
@@ -794,21 +807,8 @@ footer #venue {
     }
 }
 
-/*@media screen and (min-width: 1280px) {
-
-    .text-intro {
-        font-size: 27px;
-        width: 10%;
-        height: 320px;
-    }
-
-
-
-}
-*/
 @media screen and (min-width: 1620px) and (max-width: 1940px) {     /* Biger computer screens min-width 1620px - 1920px */
     
-
     .nav-links {
         display: flex;
         justify-content: space-evenly;
