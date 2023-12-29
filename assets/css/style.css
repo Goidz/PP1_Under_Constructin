@@ -236,12 +236,13 @@ section>h1 {
     display: flex;
     flex-direction: column;
     font-size: 13px;
-    color: black;
+    color: rgb(12, 12, 12);
     margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 
 .gig-green {
-    background-color: rgb(88, 119, 30);
+    background-color: #53a79a;
     border-style: groove;
     border-color: dimgray;
     font-size: medium;
@@ -254,7 +255,7 @@ section>h1 {
 }
 
 .gig-orange {
-    background-color:rgb(218, 145, 37);
+    background-color:#5797ad;
     border-style: groove;
     border-color: dimgray;
     font-size: medium;
