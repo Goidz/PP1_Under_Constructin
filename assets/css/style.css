@@ -389,8 +389,20 @@ footer #venue {
 
 }
 
-/* phones landscape hight 390px */
-@media screen and (min-height: 390px) and (max-height: 390px) {
+@media screen and (max-height: 384px) {
+    .text-over-hero {
+        margin-top: 80px;
+        font-size: 18px;
+        height: 160px;
+        margin-left: 500px;
+        width: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* phones landscape hight 428px */
+@media screen and (max-height: 428px) {
 
     .text-over-hero {
         margin-top: 80px;
@@ -403,7 +415,7 @@ footer #venue {
     }
 }
 
-/* phones landscape hight 390px */
+/* phones landscape hight 320px and 375px */
 @media screen and (min-height: 320px) and (max-height: 375px) {
 
     .text-over-hero {
@@ -429,7 +441,7 @@ footer #venue {
     }
 }
 
-/* smaller phones min_width 400px and 480px */
+/* phones min_width 400px and 480px */
 @media screen and (min-width: 400px) and (max-width: 480px) {
     
     #hero {
