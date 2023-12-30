@@ -322,7 +322,8 @@ footer #venue {
 
     /* About and contact */
     .text-intro {
-        height: auto;
+        min-height: 225px;
+        overflow-y: scroll;
         max-width: 100%;
         width: 86%;
         margin-left: 7%;
@@ -857,7 +858,8 @@ footer #venue {
 
     .text-intro {
         background-size: cover;
-        height: auto;
+        overflow-y: scroll;
+        height: 330px;
         margin-top: 40px;
         font-size: 32px;
         margin-bottom: 5px;
