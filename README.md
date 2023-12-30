@@ -3,7 +3,7 @@ This is my portfolio project for the Code Institute Full-stack developer course.
 
 The Giddy Goat is a fictitious live music venue. The aim of this website is to attempt to show what a music venue's website should look like from the perspective of a live music lover and hopefully also other like-minded individuals. I aimed to create a website that is easy to navigate and quickly gives the information most important to the user and in turn encourage repeat use. Through sharing the website with other people I have gotten very positive feedback with the only critique being the lack of a drinks and/or food menu. Unfortunately I have not had the time to implement this.
 
-[Welcome to The Giddy Goat](https://goidz.github.io/the-giddy-goat/index.html)
+![Welcome to the Giddy Goat!](https://goidz.github.io/the-giddy-goat/)
 
 ## Layout and features.
 The website consists of three seperate pages all are accessed by a navigation bar at the top of the home-page.
@@ -42,8 +42,11 @@ The following testing was done:
 
 
 ![html-index](docs_imgs_readme/w3c_html_index.png)
+
 ![html-gigs-page](docs_imgs_readme/w3c_html_gigs.png)
+
 ![html-about-page](docs_imgs_readme/w3c_html_about.png)
+
 ![css](docs_imgs_readme/w3c_csn_index.png)
 
 I also ran the code through AmIResponsive.co.uk.
@@ -63,12 +66,16 @@ Lastly I ran it through Google Chrome Lighthouse.
  - I struggled with colors on certain parts of the website but solved that by utilizing Venngage.com's randomised pallet function.
  - I struggled a lot with media queries which will be noticable on some devices in landscape mode.Some are fixed but many aren't.
  
- ## Websites used ofr assistance.
+ ## Websites used for assistance.
 
  ![Venngage for colour pallets](www.venngage.com)
+ 
  ![Font Awesome for icons throughout the webpage](https://fontawesome.com)
+ 
  ![Favicon taken from Favicon.cc_ by Miche99e](https://www.favicon.cc)
+ 
  ![Map](https://www.google.com/maps)
+ 
  ![Google Fonts](https://fonts.google.com/)
 
 
@@ -84,3 +91,7 @@ Lastly I ran it through Google Chrome Lighthouse.
 ## Used resources.
 
 Inspiration and guidance from especially ![W3School](https://www.w3schools.com/) and ![Mdn Developers](https://developer.mozilla.org/en-US/)
+
+## acknowledgements
+Antonio Rodriguez for all his help and wise words
+
