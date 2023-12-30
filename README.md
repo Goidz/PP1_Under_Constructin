@@ -63,4 +63,24 @@ Lastly I ran it through Google Chrome Lighthouse.
  - I struggled with colors on certain parts of the website but solved that by utilizing Venngage.com's randomised pallet function.
  - I struggled a lot with media queries which will be noticable on some devices in landscape mode.Some are fixed but many aren't.
  
- 
+ ## Websites used ofr assistance.
+
+ ![Venngage for colour pallets](www.venngage.com)
+ ![Font Awesome for icons throughout the webpage](https://fontawesome.com)
+ ![Favicon taken from Favicon.cc_ by Miche99e](https://www.favicon.cc)
+ ![Map](https://www.google.com/maps)
+ ![Google Fonts](https://fonts.google.com/)
+
+
+ ## Deployment.
+
+- In the repository section in Github click on "The Giddy Goat".
+- click the 'Settings' in the middle near the top of the page.
+- On the left side of the page under "Code and Automation" select 'Pages' at the bottom of the section.
+- Under "Build and Deployment" > "Source find the dropdown menu under "Branch" and select  "Main".
+- Click the 'Save' button.
+- Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+## Used resources.
+
+Inspiration and guidance from especially ![W3School](https://www.w3schools.com/) and ![Mdn Developers](https://developer.mozilla.org/en-US/)
