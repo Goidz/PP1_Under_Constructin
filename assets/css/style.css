@@ -462,7 +462,7 @@ footer #venue {
     .text-over-hero {
         margin-top: 80px;
         font-size: 18px;
-        height: 160px;
+        height: 170px;
         margin-left: 50px;
         width: fit-content;
         padding-left: 10px;
@@ -479,10 +479,9 @@ footer #venue {
 
     /* Resizing text over hero img */
     .text-over-hero {
-        
-        margin-left: 60%;
+        margin-right: 50px;
         font-size: 80px;
-        margin-top: 80px;
+        margin-top: 50px;
         height: 245px;
     }
 
@@ -496,15 +495,14 @@ footer #venue {
     /* Resizing header/nav section */
 
     #home-nav {
-        margin-top: 20px;
+        margin-top: 10px;
         margin-left: 50px;
         font-size: 45px;
-        margin-bottom: 5px;
     }
 
     #about-nav,
     #gigs-nav {
-        margin-top: 70px;
+        margin-top: 80px;
         font-size: 20px;
     }
 
@@ -561,7 +559,6 @@ footer #venue {
         height: 80px;
         margin-top: 20px;
         padding-bottom: 5px;
-
     }
 
     #venue-wrapper {
@@ -649,10 +646,9 @@ footer #venue {
     }
 
     .text-over-hero {
-        margin-top: 90px;
+        margin-top: 50px;
         font-size: 20px;
         height: 175px;
-        margin-left: 90px;
         width: 230px;
     }
 
