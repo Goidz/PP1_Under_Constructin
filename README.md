@@ -3,7 +3,7 @@ This is my portfolio project for the Code Institute Full-stack developer course.
 
 The Giddy Goat is a fictitious live music venue. The aim of this website is to attempt to show what a music venue's website should look like from the perspective of a live music lover and hopefully also other like-minded individuals. I aimed to create a website that is easy to navigate and quickly gives the information most important to the user and in turn encourage repeat use. Through sharing the website with other people I have gotten very positive feedback with the only critique being the lack of a drinks and/or food menu. Unfortunately I have not had the time to implement this.
 
-![Welcome to the Giddy Goat!](https://goidz.github.io/the-giddy-goat/)
+[Welcome to the Giddy Goat!](https://goidz.github.io/the-giddy-goat/)
 
 ## Layout and features.
 The website consists of three seperate pages all are accessed by a navigation bar at the top of the home-page.
@@ -68,15 +68,19 @@ Lastly I ran it through Google Chrome Lighthouse.
  
  ## Websites used for assistance.
 
- ![Venngage for colour pallets](www.venngage.com)
+ [Venngage for colour pallets](www.venngage.com)
  
- ![Font Awesome for icons throughout the webpage](https://fontawesome.com)
+ [Font Awesome for icons throughout the webpage](https://fontawesome.com)
  
- ![Favicon taken from Favicon.cc_ by Miche99e](https://www.favicon.cc)
+ [Favicon taken from Favicon.cc_ by Miche99e](https://www.favicon.cc)
  
- ![Map](https://www.google.com/maps)
+ [Google Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
  
- ![Google Fonts](https://fonts.google.com/)
+ [Responsive Design Test](https://amiresponsive.co.uk)
+ 
+ [Map](https://www.google.com/maps)
+ 
+ [Google Fonts](https://fonts.google.com/)
 
 
  ## Deployment.
@@ -90,7 +94,7 @@ Lastly I ran it through Google Chrome Lighthouse.
 
 ## Used resources.
 
-Inspiration and guidance from especially ![W3School](https://www.w3schools.com/) and ![Mdn Developers](https://developer.mozilla.org/en-US/)
+Inspiration and guidance from especially [W3School](https://www.w3schools.com/) and [Mdn Developers](https://developer.mozilla.org/en-US/)
 
 ## acknowledgements
 Antonio Rodriguez for all his help and wise words
