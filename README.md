@@ -68,7 +68,7 @@ Lastly I ran it through Google Chrome Lighthouse.
  
  ## Websites used for assistance.
 
- [Venngage for colour pallets](www.venngage.com)
+ [Venngage for colour pallets](https://venngage.com/)
  
  [Font Awesome for icons throughout the webpage](https://fontawesome.com)
  
