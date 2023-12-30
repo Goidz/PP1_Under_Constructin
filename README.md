@@ -1,39 +1,40 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Giddy Goat.
+This is my portfolio project for the Code Institute Full-stack developer course.
 
-Welcome,
+The Giddy Goat is a fictitious live music venue. The aim of this website is to attempt to show what a music venue's website should look like from the perspective of a live music lover and hopefully also other like-minded individuals. I aimed to create a website that is easy to navigate and quickly gives the information most important to the user and in turn encourage repeat use. Through sharing the website with other people I have gotten very positive feedback with the only critique being the lack of a drinks and/or food menu. Unfortunately I have not had the time to implement this.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Welcome to The Giddy Goat](https://goidz.github.io/the-giddy-goat/index.html)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Layout and features.
+The website consists of three seperate pages all are accessed by a navigation bar at the top of the home-page.
+![Navigation bar](docs_imgs_readme/nav_bar.png)
 
-## Codeanywhere Reminders
+### Home-page.
+At the top of the home-page is the navigation bar. The venue title also acts as navigation back to the home-page. To the right is the gigs-page and about-page headings which links to their respective pages. A title attribute is embedded in each giving the user information on page location when hovered by a mouse.
+Underneath the navigation bar is the main image. It strives to set the tone of the venue and websit and hopefully is striking enough to encourage the user to explore further.
+Layered atop the main image is the address and further down the page the user can find Google Maps that also links to said page.
+The bottom of the page consist of functioning social media icons and an icon that links back to the top of the page. All the icons were created using Fontawesome.com. (All the icons are linked to home-pages of the websites they represent because it's a fictitious establishment)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![Top of the home-page](docs_imgs_readme/home-screen_top.png)  ![Bottom of home-page](docs_imgs_readme/home-screen_bottom.png)
 
-`python3 -m http.server`
+### Gigs-page.
+When the gigs-page is selected it navigates to the venues events section. All the events are placed in a column and has a link to a ticket website. (In this case to eventim.de) I selected the fonts of the events rows using the randomised pallets on Venngage.com. The choices were based on trying to make the site easier to use for the visually impaired. At the bottom of the page Google-maps can again be found and underneath that again the social media icons. In addition to these icons there's also Spotify and YouTube to assist and encourage users to discover new music. Both icons link to their respective homepages and are generated using Fontawesome.com
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Top of the Gigs-page](docs_imgs_readme/gigs_top.png) ![Bottom of the Gigs-page](docs_imgs_readme/footer_gigs.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### About page.
+The about page consists of an introduction of the venue and a contact section with an email link that links directly to the users internal email program. Again Google-maps and a footer with social media links and an icon linking to the top of the page.
 
-`http_server`
+![Top of the about-page](docs_imgs_readme/about_top.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Outstanding elements of the page.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Unfortnately I ran out of time to finalise everything I would have liked to.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-Some of the media queries are not perfect and I would like to rectify these at a later date.
 
-To log into the Heroku toolbelt CLI:
+## Testing
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The following testing was done:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+-W3C HTML Validator reported no errors
