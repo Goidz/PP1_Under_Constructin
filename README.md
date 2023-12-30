@@ -46,5 +46,21 @@ The following testing was done:
 ![html-about-page](docs_imgs_readme/w3c_html_about.png)
 ![css](docs_imgs_readme/w3c_csn_index.png)
 
-I also ran it through AmIResponsive.co.za 
+I also ran the code through AmIResponsive.co.uk.
+
 ![am i responsive](docs_imgs_readme/am-i-responsive.png)
+
+Lastly I ran it through Google Chrome Lighthouse.
+
+![lighthouse-index](docs_imgs_readme/lighthouse_index.png)  ![lighthouse-gigs](docs_imgs_readme/lighthouse_gigs.png)    ![lighthouse-about](docs_imgs_readme/lighthouse_about.png)
+
+
+## Bug fixes and to do.
+
+ - Lighthouse pointed out that there was no title attribute in the Iframe used for Google-maps.
+ - Have forgotten numerous closing tags in the HTML during the course of this project.
+ - There was an (x-y)overflow problem on larger devices. I think solved this by adding scroll on the y-access and overflow-hide on the y-axis. 
+ - I struggled with colors on certain parts of the website but solved that by utilizing Venngage.com's randomised pallet function.
+ - I struggled a lot with media queries which will be noticable on some devices in landscape mode.Some are fixed but many aren't.
+ 
+ 
