@@ -470,7 +470,7 @@ footer #venue {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 920px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
     /* Tablets min_width 768px to 920px */
 
     #hero {
@@ -479,17 +479,18 @@ footer #venue {
 
     /* Resizing text over hero img */
     .text-over-hero {
-        width: 60%;
-        margin-left: 50%;
-        font-size: 30px;
+        
+        margin-left: 60%;
+        font-size: 80px;
         margin-top: 80px;
         height: 245px;
     }
 
     .text-intro {
-        display: flex;
-        box-sizing: border-box;
-        height: auto;
+        height: 360px;
+        margin-top: 20px;
+        padding: 8px;
+        font-size: 30px;
     }
 
     /* Resizing header/nav section */
@@ -497,7 +498,7 @@ footer #venue {
     #home-nav {
         margin-top: 20px;
         margin-left: 50px;
-        font-size: 50px;
+        font-size: 45px;
         margin-bottom: 5px;
     }
 
@@ -628,137 +629,69 @@ footer #venue {
     }
 }
 
-/* Big Tablets. Ipad Pro */
-@media screen and (min-width: 1024px) and (max-width: 1124px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    /* Tablets landcape */
+
+    /* Navigation adjustments */
 
     #home-nav {
-        font-size: 60px;
-        margin-bottom: 10px;
-    }
-
-    #gigs-nav {
-        font-size: 25px;
+        font-size: 45px;
     }
 
     #about-nav {
-        font-size: 25px;
-    }
+        margin-right: 10px;
 
-    .text-over-hero {
-        margin-top: 80px;
-        font-size: 25px;
-        height: 210px;
-        margin-left: 620px;
-    }
-
-    .text-intro-heading {
-        font-size: 25px;
-    }
-
-    .text-intro {               /* Intro Section */
-        height: 392px;
-        margin-top: 20px;
-        padding: 8px;
-        font-size: 26px;
-    }
-
-    .text-heading-contact{
-        font-size: 20px;
-        padding-bottom: 30px;
-    }
-
-    .text-intro-contact{
-        height: 300px;
-        font-size: 20px;
-        margin-bottom: 0;
-    }
-
-    .gig-green, .gig-orange {
-        font-size: large;
-    }
-
-    #venue {
-        margin-top: 30px;
-    }
-
-}
-
-/* Ipad pro landscape */
-@media screen and (min-height: 1024px) and (max-height: 1024px) {
-
-    /* Nav media queries */
-    #home-nav {
-        font-size: 65px;
-        margin-bottom: 10px;
-        margin-right: 350px;
     }
 
     #gigs-nav {
-        font-size: 28px;
-    }
-
-    #about-nav {
-        font-size: 28px;
-    }
-    
-    /* Hero media queries */
-
-    #hero {
-       background-size: cover;
+        margin-right: 10px;
+        padding-left: 180px;
     }
 
     .text-over-hero {
-        margin-top: 180px;
-        font-size: 26px;
-        height: 220px;
-        margin-left: 140px;
-        width: fit-content;
-        padding-left: 10px;
-        padding-right: 10px;
+        margin-top: 90px;
+        font-size: 20px;
+        height: 175px;
+        margin-left: 90px;
+        width: 230px;
     }
 
-    /* Intro and contact media queries */
-
-    .text-intro-heading {
-        font-size: x-large;
-    }
+    /* text intro section */
 
     .text-intro {
-        height: 390px;
+        height: 360px;
         margin-top: 20px;
         padding: 8px;
         font-size: 30px;
     }
 
-    .text-heading-contact {
-        font-size: large;
+
+    /* .gig-green, .gig-orange */
+
+    .gig-green,
+    .gig-orange {
+        height: 120px;
     }
 
-    .text-intro-contact {
-        height: 300px;
-        margin-top: 20px;
-        padding: 5px;
-        font-size: 20px;
+    #dr-john {
+        height: 120px;
+        padding-top: 5px;
     }
 
-    /* Intro and contact media queries */
-    
-    .gig-main, section>h1 {
-        font-size: 50px;
-        padding-top: 20px;
-        margin-bottom: 0;
-    } 
-    
-    .gig-guide {
-        margin-bottom: 30px;
-        margin-top: 0;
+    #witches {
+        height: 135px;
+        padding-top: 5px;
     }
 
-    .gig-green, .gig-orange {
-        font-size: large;
+    #queens {
+        height: 135px;
+        padding-top: 5px;
     }
 
-
+    #closed-feb {
+        height: 110px;
+        padding-top: 5px;
+    }
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1520px) {
@@ -853,68 +786,6 @@ footer #venue {
 
     .gig-green, .gig-orange {
         font-size: large;
-    }
-}
-
-@media screen and (min-width: 1080px) and (max-width: 1280px) {     /* Tablets landcape */
-    
-    /* Navigation adjustments */
-    
-    #home-nav {
-        font-size: 80px;    
-    }
-
-    #about-nav {
-        margin-right: 10px;
-        
-    }
-
-    #gigs-nav {
-        margin-right: 10px;
-        padding-left: 180px;    
-    }
-
-    .text-over-hero {
-        margin-top: 90px;
-        font-size: 20px;
-        height: 175px;
-        margin-left: 90px;
-        width: 230px;
-    }
-
-    /* text intro section */
-
-    .text-intro {
-        font-size: 25px;
-        width: 90%;
-        height: 320px;
-    }
-
-
-    /* .gig-green, .gig-orange */
-
-    .gig-green, .gig-orange {
-        height: 120px;
-    }
-
-    #dr-john {
-        height: 110px;
-        padding-top: 5px;
-    }
-
-    #witches {
-        height: 135px;
-        padding-top: 5px;
-    }
-
-    #queens {
-        height: 135px;
-        padding-top: 5px;
-    }
-
-    #closed-feb {
-        height: 110px;
-        padding-top: 5px;
     }
 }
 
