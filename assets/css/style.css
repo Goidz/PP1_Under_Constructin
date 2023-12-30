@@ -858,7 +858,7 @@ footer #venue {
 
     .text-intro {
         background-size: cover;
-        overflow-y: scroll;
+        overflow-y: hidden;
         overflow-x: hidden;
         height: 350px;
         margin-top: 40px;
