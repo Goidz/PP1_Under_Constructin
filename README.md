@@ -42,5 +42,9 @@ The following testing was done:
 
 
 ![html-index](docs_imgs_readme/w3c_html_index.png)
-![html-index](docs_imgs_readme/w3c_html_gigs.png)
-![html-index](docs_imgs_readme/w3c_html_about.png)
+![html-gigs-page](docs_imgs_readme/w3c_html_gigs.png)
+![html-about-page](docs_imgs_readme/w3c_html_about.png)
+![css](docs_imgs_readme/w3c_csn_index.png)
+
+I also ran it through AmIResponsive.co.za 
+![am i responsive](docs_imgs_readme/am-i-responsive.png)
