@@ -239,7 +239,7 @@ section>h1 {
 }
 
 .gig-green {
-    background-color: #53a79a;
+    background-color: #53a79a; /* This colour were picked using pallets generated with Venngage */
     border-style: groove;
     border-color: dimgray;
     font-size: medium;
@@ -251,7 +251,7 @@ section>h1 {
 }
 
 .gig-orange {
-    background-color:#5797ad;
+    background-color:#5797ad; /* This colour were picked using pallets generated with Venngage */
     border-style: groove;
     border-color: dimgray;
     font-size: medium;
