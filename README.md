@@ -37,4 +37,10 @@ Unfortnately I ran out of time to finalise everything I would have liked to.
 
 The following testing was done:
 
--W3C HTML Validator reported no errors
+-W3C HTML Validator reported no errors.
+-w3c CSS Validator reported no errors.
+
+
+![html-index](docs_imgs_readme/w3c_html_index.png)
+![html-index](docs_imgs_readme/w3c_html_gigs.png)
+![html-index](docs_imgs_readme/w3c_html_about.png)
