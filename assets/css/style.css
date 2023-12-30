@@ -387,6 +387,26 @@ footer #venue {
         margin-bottom: 20px;
     }
 
+    #dr-john {
+        height: 95px;
+        padding-top: 0px;
+    }
+
+    #witches {
+        height: 95px;
+        padding-top: 0;
+    }
+
+    #queens {
+        height: 95px;
+        padding-top: 0;
+    }
+
+    #closed-feb {
+        height: 95px;
+        padding-top: 5px;
+    }
+
 }
 
 /* phones landscape hight 320px and 375px */
